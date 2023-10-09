@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  /* border: 1px solid red; */
+}
+
+body {
+  color: #fff;
+  background: #1b1919;
+  min-height: 100vh;
+}
+
+/* ===================== SECTION NAVBAR =================*/ 
+
+.navbar {
+  grid-area: navbar;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.liste-navbar {
+  grid-area: liste-navbar;
+  display: flex;
+}
+
+.liste-navbar li {
+  list-style: none;
+}
+
+.liste-navbar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+
+.header-right { 
+  width: 50%;
+}
+
+#modem-pic {
+  width: 100%;
+}
+
+.header-left {
+  display: flex;
+}
+
+/* =================== SECTION HEADER =================== */
+
+
+/* ============== SECTION DUS BAS ================ */
+
